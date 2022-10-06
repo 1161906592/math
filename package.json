@@ -2,7 +2,7 @@
   "name": "@liuyang0826/mathjs",
   "type": "module",
   "version": "0.0.1",
-  "description": "",
+  "description": "math tools",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1161906592/mathjs.git"
