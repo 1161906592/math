@@ -5,14 +5,14 @@
   "description": "math tools",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1161906592/mathjs.git"
+    "url": "git+https://github.com/liuyang0826/mathjs.git"
   },
   "author": "liuyang.0826<1161906592@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/1161906592/mathjs/issues"
+    "url": "https://github.com/liuyang0826/mathjs/issues"
   },
-  "homepage": "https://github.com/1161906592/mathjs#readme",
+  "homepage": "https://github.com/liuyang0826/mathjs#readme",
   "keywords": [],
   "sideEffects": false,
   "exports": {
