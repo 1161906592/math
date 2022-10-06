@@ -1,0 +1,51 @@
+{
+  "name": "@liuyang0826/mathjs",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1161906592/mathjs.git"
+  },
+  "author": "liuyang.0826<1161906592@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1161906592/mathjs/issues"
+  },
+  "homepage": "https://github.com/1161906592/mathjs#readme",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "esno src/index.ts",
+    "build": "tsup",
+    "release": "bumpp && npm publish",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@liuyang0826/eslint-config": "^0.0.1",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.24.0",
+    "esno": "^0.16.3",
+    "prettier": "^2.7.1",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4",
+    "vitest": "^0.23.4"
+  }
+}
